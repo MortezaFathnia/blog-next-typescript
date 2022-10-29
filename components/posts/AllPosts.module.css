@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.625rem;
+}
+
+.logoWrapper {
+  margin-bottom: 0;
+}
+
+.logo {
+  font-size: 1.98818rem;
+  line-height: 2.625rem;
+  box-shadow: none;
+  text-decoration: none;
+  color: var(--textTitle);
+}
+
+.posts h1 {
+  color: var(--pink);
+  text-align: center;
+}
+
+.postHeader {
+  display: flex;
+  margin-bottom: 3.5rem;
+}
+
+.postHeader p {
+  line-height: 2rem;
+  max-width: 310px;
+}
+
+.postHeader a{
+  border-bottom: 1px solid;
+}
+
+.postHeader img {
+  margin-right: 0.875rem;
+  margin-bottom: 0px;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+}
+
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 1.5rem;
+  align-content: center;
+}

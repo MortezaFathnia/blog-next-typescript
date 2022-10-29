@@ -1,0 +1,16 @@
+.post {
+  text-align: left;
+}
+
+.post a {
+  color: var(--textLink);
+  font-weight: 900;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.75rem;
+}
+
+.post h3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.75rem;
+  margin-bottom: 0.4375rem;
+}

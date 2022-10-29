@@ -1,0 +1,43 @@
+.content {
+  color: var(--header);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.625rem;
+}
+
+.logo{
+  font-family: Montserrat, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 42px;
+  line-height: 2.625rem;
+}
+
+.logoWrapper {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.content p {
+  color: var(--textNormal);
+}
+
+.content h1 {
+  color: var(--textTitle);
+}
+
+.date {
+  font-size: 0.83255rem;
+  line-height: 1.75rem;
+  display: block;
+  margin-bottom: 1.75rem;
+  margin-top: -1.4rem;
+}
+
+.linkWrapper{
+  display: flex;
+}
